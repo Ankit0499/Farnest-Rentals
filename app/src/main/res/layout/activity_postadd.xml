@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".postadd"
+    android:layout_margin="15dp">
+
+    <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginBottom="40dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiog1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp">
+
+        <RadioButton
+            android:id="@+id/home_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="House"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:paddingLeft="12sp"
+            android:layout_marginBottom="20dp" />
+
+        <RadioButton
+            android:id="@+id/shop_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shop"
+            android:textSize="23dp"
+            android:paddingLeft="12sp"
+            android:textStyle="bold"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/osub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Next"
+        android:background="@color/btn"
+        android:textColor="@color/White"/>
+
+</LinearLayout>

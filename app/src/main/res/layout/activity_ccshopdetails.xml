@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ccshopdetails">
+
+        <ImageView
+            android:id="@+id/siv"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp" />
+
+        <TextView
+            android:id="@+id/stv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/siv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Personal Washroom"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sroomv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv1" />
+
+        <TextView
+            android:id="@+id/stv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sroomv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Corner Shop"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sbathv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv2" />
+
+
+        <TextView
+            android:id="@+id/stv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sbathv"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Main Road Facing"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sbalv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv3" />
+
+        <TextView
+            android:id="@+id/stv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sbalv"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Floor"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sfloorv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv4" />
+
+        <TextView
+            android:id="@+id/stv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sfloorv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Furnishing"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sfurn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv5" />
+
+        <TextView
+            android:id="@+id/stv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sfurn5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Carpet Area"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/scarv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv6" />
+
+        <TextView
+            android:id="@+id/stv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scarv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Super Area"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ssupv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv7" />
+
+        <TextView
+            android:id="@+id/stv8"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ssupv"
+            android:layout_marginTop="15dp"
+            android:text="Rent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/srentv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv8" />
+
+        <TextView
+            android:id="@+id/stv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/srentv"
+            android:layout_marginTop="15dp"
+            android:text="Other Expenses"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sotherv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv9" />
+
+        <TextView
+            android:id="@+id/stv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sotherv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Security Amount"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ssecv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv10" />
+
+        <TextView
+            android:id="@+id/stv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ssecv"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Montly Maintance Charges"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/smainv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv11" />
+
+        <TextView
+            android:id="@+id/stv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/smainv"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="House no."
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/snov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv12" />
+
+        <TextView
+            android:id="@+id/stv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/snov"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Street"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sstreetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv13" />
+
+        <TextView
+            android:id="@+id/stv14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sstreetv"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Landmark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/slandv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv14" />
+
+        <TextView
+            android:id="@+id/stv15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slandv"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Pincode"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/spincv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv15" />
+
+        <TextView
+            android:id="@+id/stv16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spincv"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="City"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/scityv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/stv16" />
+
+        <Button
+            android:id="@+id/btnchatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scityv"
+            android:gravity="center"
+            android:text="Contact With Renter"/>
+    </RelativeLayout>
+</ScrollView>

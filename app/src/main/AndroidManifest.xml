@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ankit_prajapati.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/abc" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:theme="@style/abc" />
+        <activity
+            android:name=".PasswordActivity"
+            android:theme="@style/abc" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".UpdateProfile"
+            android:theme="@style/abc" />
+        <activity
+            android:name=".UpdatePassword"
+            android:theme="@style/abc" />
+        <activity android:name=".postadd" />
+        <activity android:name=".postaddetail" />
+        <activity android:name=".postshopd" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".cchomedetails">
+        </activity>
+        <activity android:name=".shopview">
+        </activity>
+        <activity android:name=".ccshopdetails">
+        </activity>
+        <activity android:name=".MyPost">
+        </activity>
+        <activity android:name=".Myshop">
+        </activity>
+        <activity android:name=".mcchomedetails">
+        </activity>
+        <activity android:name=".mccshopdetails">
+        </activity>
+    </application>
+
+</manifest>

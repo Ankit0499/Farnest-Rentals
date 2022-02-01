@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback5"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="27dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="17dp"
+        android:layout_alignBottom="@+id/text_input_email"
+        android:src="@drawable/email" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="17dp"
+        android:src="@drawable/password" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="213dp"
+        android:textColorHint="#FF084D5B">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etname"
+            android:layout_width="231dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#fff" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="275dp"
+        android:layout_alignParentTop="true"
+        android:textColorHint="#FF084D5B"
+        android:layout_centerHorizontal="true"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etpassword"
+            android:layout_width="231dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#fff" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:background="@color/btn"
+        android:text="Login"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/tvregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="New User? Sign Up!"
+        android:textColor="@color/White"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp"
+        android:text="Fogot Password?"
+        android:textColor="@color/White" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "616894028536",
+    "firebase_url": "https://login-b7807.firebaseio.com",
+    "project_id": "login-b7807",
+    "storage_bucket": "login-b7807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616894028536:android:acc328ec0c8befe0",
+        "android_client_info": {
+          "package_name": "com.example.ankit_prajapati.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616894028536-cdpklhhba7tev6t3dj0bnkn5lmcfpb5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDat4Ocwl6p0XAARkZ_OMQsX3QhOVry9Vw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

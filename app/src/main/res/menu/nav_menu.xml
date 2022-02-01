@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profileMenu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/profile"
+        android:title="Profile">
+    </item>
+
+    <item
+        android:id="@+id/viewshops"
+        android:orderInCategory="200"
+        android:icon="@drawable/shops"
+        android:title="View Shops" />
+
+    <item
+        android:id="@+id/addpost"
+        android:orderInCategory="300"
+        android:icon="@drawable/addhouse"
+        android:title="Add Property"></item>
+
+
+    <item android:id="@+id/myhouse"
+        android:orderInCategory="400"
+        android:icon="@drawable/house"
+        android:title="My House"></item>
+
+    <item android:id="@+id/myshop"
+        android:orderInCategory="500"
+        android:icon="@drawable/myshops"
+        android:title="My Shops"></item>
+
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="600"
+        android:icon="@drawable/feed"
+        android:title="Feedback" />
+
+    <item
+        android:id="@+id/logoutMenu"
+        android:orderInCategory="700"
+        app:showAsAction="never"
+        android:icon="@drawable/logout1"
+        android:title="Logout">
+    </item>
+</menu>
